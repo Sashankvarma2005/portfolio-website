@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio Projects - Sashank Varma Buddharaju">
+    <title>Portfolio | Sashank Varma Buddharaju</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">Sashank Varma</div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>My Projects</h1>
+            <p>Showcase of my work across web development, data science, and backend systems</p>
+        </div>
+    </section>
+
+    <!-- Portfolio Filter -->
+    <section class="portfolio-filter">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+                <button class="filter-btn" data-filter="data">Data Science</button>
+                <button class="filter-btn" data-filter="backend">Backend</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Grid -->
+    <section class="portfolio-section">
+        <div class="container">
+            <div class="portfolio-grid">
+                <!-- Project 1: Roomio -->
+                <div class="portfolio-card" data-category="web">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">📱</div>
+                        <div class="portfolio-overlay">
+                            <a href="#" class="portfolio-link">View Project</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Roomio - Roommate Matching App</h3>
+                        <p class="portfolio-category">Mobile Development</p>
+                        <p class="portfolio-description">Cross-platform roommate/housing matching app with two profile types and Tinder-style swipe feed. Built with React Native (Expo SDK 54), TypeScript, and Supabase. Integrated secure sign-in, real-time chat for matched users, image uploads, and push notifications.</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">React Native</span>
+                            <span class="tag">TypeScript</span>
+                            <span class="tag">Supabase</span>
+                            <span class="tag">PostgreSQL</span>
+                            <span class="tag">Expo Router</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: Pathway -->
+                <div class="portfolio-card" data-category="web">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">🤖</div>
+                        <div class="portfolio-overlay">
+                            <a href="#" class="portfolio-link">View Project</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Pathway - AI Career Readiness Platform</h3>
+                        <p class="portfolio-category">Full-Stack Development</p>
+                        <p class="portfolio-description">Full-stack AI-powered career platform using Node.js, Express, React, with GenAI integration (OpenAI/Gemini). Features AI-driven mock interviews, application tracking, skill gap analysis. Secure backend with JWT auth, OAuth2, LinkedIn API integration. Comprehensive Jest + Supertest test suite with 15+ use cases. PostgreSQL with 11 normalized tables, deployed on Render.</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Node.js</span>
+                            <span class="tag">React</span>
+                            <span class="tag">OpenAI/Gemini</span>
+                            <span class="tag">PostgreSQL</span>
+                            <span class="tag">JWT/OAuth2</span>
+                            <span class="tag">Jest</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: AI/LLM Features -->
+                <div class="portfolio-card" data-category="data">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">⚙️</div>
+                        <div class="portfolio-overlay">
+                            <a href="#" class="portfolio-link">View Project</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>AI/LLM-Assisted Features</h3>
+                        <p class="portfolio-category">AI/ML & Data Science</p>
+                        <p class="portfolio-description">Built and tested AI/LLM-assisted features for interactive content. Focused on NLP workflows and iterative prompt refinement. Improved response relevance and usability through data-driven optimization and A/B testing of different prompting strategies.</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">GenAI</span>
+                            <span class="tag">NLP</span>
+                            <span class="tag">LLM</span>
+                            <span class="tag">LangChain</span>
+                            <span class="tag">RAG</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta">
+        <div class="container">
+            <h2>Interested in Collaborating?</h2>
+            <p>Let's work together to create amazing projects</p>
+            <a href="contact.html" class="btn btn-primary">Start a Project</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Sashank Varma Buddharaju. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://linkedin.com/in/sashankvb" target="_blank" rel="noopener">LinkedIn</a>
+                <a href="https://github.com/Sashankvarma2005" target="_blank" rel="noopener">GitHub</a>
+                <a href="mailto:sashankbuddharaju@gmail.com">Email</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
