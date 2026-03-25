@@ -1,20 +1,14 @@
-/index.html (Homepage)
-  - Introduction
-  - Featured Projects
-
-/about.html (About Page)
-  - Your Story
-  - Skills
-
-/portfolio.html (Portfolio Page)
-  - Project 1
-  - Project 2
-  - Project 3
-
-/blog.html (Blog Page)
-  - Post 1
-  - Post 2
-
-/contact.html (Contact Page)
-  - Contact Form
-  - Social Media Links
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "Personal portfolio website",
+  "main": "src/index.html",
+  "scripts": {
+    "dev": "serve src",
+    "build": "echo 'Static site - no build required'",
+    "start": "serve src"
+  },
+  "keywords": ["portfolio", "website", "html", "css", "javascript"],
+  "author": "Sashank Varma Buddharaju",
+  "license": "MIT"
+}
